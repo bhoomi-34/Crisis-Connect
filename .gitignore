@@ -1,0 +1,26 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# Build output
+dist/
+build/
+
+# SQLTools local files
+*.session.sql
+explore.sql
+
+# Local editor settings
+.vscode/
